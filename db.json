@@ -1,0 +1,75 @@
+{
+    "articles": [
+      {
+        "id": 1,
+        "title": "Understanding JavaScript Closures",
+        "content": "A closure is the combination of a function and the lexical environment within which that function was declared.",
+        "author": 1,
+        "published": "2024-01-15",
+        "tags": ["JavaScript", "Programming", "Web Development"]
+      },
+      {
+        "id": 2,
+        "title": "A Guide to Flexbox in CSS",
+        "content": "Flexbox is a powerful layout tool that allows you to design flexible and responsive layouts.",
+        "author": 2,
+        "published": "2024-02-22",
+        "tags": ["CSS", "Design", "Web Development"]
+      },
+      {
+        "id": 3,
+        "title": "Understanding RESTful APIs",
+        "content": "RESTful APIs follow a set of rules to enable effective client-server communication.",
+        "author": 1,
+        "published": "2024-03-10",
+        "tags": ["API", "REST", "Web Development"]
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "name": "Alice Johnson",
+        "email": "alice2@gmail.com",
+        "role": "admin",
+        "joined": "2023-10-15"
+      },
+      {
+        "id": 2,
+        "name": "Bob Smith",
+        "email": "bob11@hotmail.com",
+        "role": "author",
+        "joined": "2023-11-02"
+      },
+      {
+        "id": 3,
+        "name": "Charlie Brown",
+        "email": "charlie@outlook.com",
+        "role": "reader",
+        "joined": "2024-01-05"
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "articleId": 1,
+        "userId": 3,
+        "comment": "Great explanation on closures, very helpful!",
+        "posted": "2024-01-16"
+      },
+      {
+        "id": 2,
+        "articleId": 2,
+        "userId": 1,
+        "comment": "I love using Flexbox in my projects.",
+        "posted": "2024-02-23"
+      },
+      {
+        "id": 3,
+        "articleId": 3,
+        "userId": 2,
+        "comment": "This article is a good introduction to RESTful APIs.",
+        "posted": "2024-03-12"
+      }
+    ]
+  }
+  
